@@ -1,4 +1,4 @@
-package POO_ejercicio_01;
+package _2_POO_ejercicio_01;
 
 import java.time.LocalDate;
 
@@ -11,17 +11,17 @@ public class Cliente {
     private String nombre;
     private String apellidos;
     private String direccion;
-    private String localidad;
+    private String ciudad;
     private LocalDate fNacimiento;
 
     ////////////////////////////////////////
     // CONSTRUCTORES
     ////////////////////////////////////////
-    public Cliente(String nombre, String apellidos, String direccion, String localidad, LocalDate fNacimiento) {
+    public Cliente(String nombre, String apellidos, String direccion, String ciudad, LocalDate fNacimiento) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.direccion = direccion;
-        this.localidad = localidad;
+        this.ciudad = ciudad;
         this.fNacimiento = fNacimiento;
     }
 
@@ -52,12 +52,12 @@ public class Cliente {
         this.direccion = direccion;
     }
 
-    public String getLocalidad() {
-        return localidad;
+    public String getCiudad() {
+        return ciudad;
     }
 
-    public void setLocalidad(String localidad) {
-        this.localidad = localidad;
+    public void setCiudad(String ciudad) {
+        this.ciudad = ciudad;
     }
 
     public LocalDate getfNacimiento() {
@@ -76,7 +76,7 @@ public class Cliente {
     }
 
     public String direccionCompleta() {
-        return this.direccion + ", " + this.localidad;
+        return this.direccion + ", " + this.ciudad;
     }
 
 }

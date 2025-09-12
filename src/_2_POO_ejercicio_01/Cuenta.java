@@ -1,4 +1,4 @@
-package POO_ejercicio_01;
+package _2_POO_ejercicio_01;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -104,7 +104,7 @@ public class Cuenta {
     public void verDatos() {
         String s = "";
         s += "N Cuenta: " + this.numeroCuenta + "\n";
-        s += "Titular: " + this.titular.nombreCompleto() + ", domicilio en " + this.titular.direccionCompleta() + "n";
+        s += "Titular: " + this.titular.nombreCompleto() + ", domicilio en " + this.titular.direccionCompleta() + "\n";
         s += "Saldo actual: " + this.saldo + "€\n";
         s += "---------- MOVIMIENTOS ----------\n";
         s += this.obtenerMovimientos();
