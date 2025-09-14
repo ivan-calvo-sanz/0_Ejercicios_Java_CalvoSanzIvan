@@ -1,4 +1,4 @@
-package _2_POO_ejercicio_01;
+package _2_POO_ejercicio_01_Sucursal_Bancaria;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
